@@ -1,0 +1,89 @@
+# =========================
+# Python / generic
+# =========================
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.log
+*.egg
+*.egg-info/
+.eggs/
+.build/
+
+# Packaging
+build/
+dist/
+MANIFEST
+
+# =========================
+# Editors / OS
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.code-workspace
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+# Local envs (anchored at repo root)
+ /.plants-gpu/
+ /.virtual_documents/
+
+
+# =========================
+# Environments / Conda caches
+# =========================
+.env
+.venv/
+venv/
+ENV/
+.python-version
+.plants-gpu/  
+
+          # your in-project conda env
+.virtual_documents/     # VS Code/Jupyter virtual docs
+.conda/
+conda-pkgs/
+conda-tmp/
+
+# =========================
+# Project-specific data/artifacts
+# =========================
+
+# Data (large) — keep structure with .gitkeep/README if needed
+data/
+!data/.gitkeep
+!data/README.md
+
+# Models / checkpoints
+models/
+checkpoints/
+runs/
+wandb/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Logs
+logs/
+
+# Outputs: ignore heavy artifacts, but keep lightweight reports
+outputs/
+!outputs/*.txt
+!outputs/*.csv
+!outputs/.gitkeep
+
+# Quarantine
+quarantine_dups/
+
+# Images/plots generated (keep ignored by default)
+*.png
+*.jpg
+*.jpeg
