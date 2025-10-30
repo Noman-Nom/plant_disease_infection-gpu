@@ -58,6 +58,7 @@ conda-tmp/
 
 # Data (large) — keep structure with .gitkeep/README if needed
 data/
+data_renamed
 !data/.gitkeep
 !data/README.md
 
@@ -76,6 +77,7 @@ logs/
 
 # Outputs: ignore heavy artifacts, but keep lightweight reports
 outputs/
+
 !outputs/*.txt
 !outputs/*.csv
 !outputs/.gitkeep
